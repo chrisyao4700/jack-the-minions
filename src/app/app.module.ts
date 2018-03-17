@@ -13,6 +13,7 @@ import { GraphicComponent } from './home/work/graphic/graphic.component';
 import { ArtComponent } from './home/work/art/art.component';
 import { NavComponent } from './shared/nav/nav.component';
 import { TabComponent } from './home/work/tab/tab.component';
+import { ApplicationsComponent } from './home/work/applications/applications.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { TabComponent } from './home/work/tab/tab.component';
     GraphicComponent,
     ArtComponent,
     NavComponent,
-    TabComponent
+    TabComponent,
+    ApplicationsComponent
   ],
   imports: [
     BrowserModule

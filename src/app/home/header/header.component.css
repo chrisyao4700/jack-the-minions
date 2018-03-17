@@ -1,0 +1,9 @@
+#header {
+  /*background: url(/assets/images/stars-bg.jpg) center center no-repeat;*/
+  background-color: yellow;
+  background-size: cover;
+  height: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+}
