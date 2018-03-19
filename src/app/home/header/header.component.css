@@ -1,9 +1,15 @@
 #header {
   /*background: url(/assets/images/stars-bg.jpg) center center no-repeat;*/
-  background-color: yellow;
+  background-color: #4454FF;
   background-size: cover;
   height: 100%;
   color: white;
   display: flex;
   align-items: center;
+}
+
+.slogan {
+  font-weight: 600;
+  font-size: 68px;
+  line-height: 120%;
 }

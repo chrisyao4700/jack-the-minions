@@ -1,0 +1,12 @@
+.navbar-jack {
+  background-color: #4454FF;
+  /*background-color: transparent;*/
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #bebebe;
+}

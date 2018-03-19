@@ -1,0 +1,38 @@
+.title-01 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #4454FF;
+}
+
+.text-01 {
+  font-size: 16px;
+  font-weight: 300;
+  color: black;
+}
+
+.img-about {
+  width: 50%;
+  height: auto;
+  position: static;
+  float: right;
+}
+
+.download-butt {
+  background-color: white;
+  border: solid 1px #4454FF;
+  color: #4454FF;
+  padding: 20px 36px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.download-butt:hover {
+  background-color: #4454FF;
+  color: white;
+}
