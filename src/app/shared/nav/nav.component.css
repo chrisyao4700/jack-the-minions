@@ -3,10 +3,13 @@
   /*background-color: transparent;*/
 }
 
-a {
+li a {
+  cursor: pointer;
   color: white;
+  margin-right: 30px;
+  font-size: large;
 }
 
-a:hover {
+li a:hover {
   color: #bebebe;
 }

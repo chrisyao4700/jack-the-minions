@@ -7,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
-  constructor() { }
+  navItems: Array<string>;
+  constructor() {
+    this.navItems = ['Work', 'About', 'Contact'];
+  }
 
   ngOnInit() {
   }
