@@ -2,14 +2,52 @@
   /*background: url(/assets/images/stars-bg.jpg) center center no-repeat;*/
   background-color: #4454FF;
   background-size: cover;
-  height: 100%;
+  height: 80%;
   color: white;
   display: flex;
   align-items: center;
 }
 
-.slogan {
+h4 {
   font-weight: 600;
   font-size: 68px;
   line-height: 120%;
+}
+
+.head-img {
+  /*background-color: black;*/
+  padding-top: 20%;
+  padding-bottom: -80%;
+}
+
+.head-slogan {
+  /*background-color: red;*/
+  padding-top: 13%;
+}
+
+@media screen and (max-width: 970px) {
+  .head-img {
+    /*font-size: smaller;*/
+    display: none;
+  }
+
+  .head-slogan h4{
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 110%;
+  }
+  .head-slogan{
+    padding-top: 12%;
+  }
+
+
+
+}
+
+@media screen and (max-width: 1170px){
+  .head-slogan h4{
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 110%;
+  }
 }

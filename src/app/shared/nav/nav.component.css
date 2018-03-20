@@ -13,3 +13,16 @@ li a {
 li a:hover {
   color: #bebebe;
 }
+
+.navbar-brand {
+  margin-left: 30px;
+}
+
+.navbar-toggler {
+  color: white;
+}
+
+.navbar-toggler:hover {
+  color: #bebebe;
+}
+
